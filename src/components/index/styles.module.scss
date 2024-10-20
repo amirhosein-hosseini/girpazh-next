@@ -1,0 +1,33 @@
+.installApp{
+    background-image: url("../../../public/images/install.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.indexShop{
+    .items::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+.indexAboutTitle{
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 90%;
+        height: 3px;
+        background: #E14957;
+        bottom: -9px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+}
+
+.indexSlide{
+    @media only screen and (max-width:768px){
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}

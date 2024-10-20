@@ -1,0 +1,19 @@
+.internationalSell{
+    .title{
+        margin-bottom: 70px;
+        p{
+            position: relative;
+            text-align: center;
+            &::after{
+                position: absolute;
+                content: "";
+                width: 60%;
+                height: 2px;
+                background: linear-gradient(90deg, rgba(223,213,251,1) 0%, rgba(225,73,87,1) 50%, rgba(245,242,242,1) 100%);;
+                left: 50%;
+                bottom: -15px;
+                transform: translate(-50%,0);
+            }
+        }
+    }
+}

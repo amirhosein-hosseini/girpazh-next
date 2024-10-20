@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Yekan Bakh";
+  src: url("../../public/font/YekanBakhFaNum-Regular.woff2");
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Yekan Bakh" !important;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.noScroll {
+  height: 100vh !important;
+}
+
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-somoothing: antialiased;
+  overflow-x: hidden;
+  background: #F5F5F5;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+a,
+label,
+textarea,
+span {
+  overflow-wrap: break-word;
+  font-family: "Yekan Bakh";
+  direction: rtl;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  direction: rtl;
+  margin-right: 30px !important;
+  margin: 0;
+  padding: 0;
+}
+
+ol{
+  direction: rtl;
+  margin-right: 15px;
+}
+
+
+h1 {
+  font-size: 2em; /* or any size you prefer */
+  direction: rtl;
+}
+
+h2 {
+  font-size: 1.75em; /* or any size you prefer */
+  direction: rtl;
+}
+
+h3 {
+  font-size: 1.5em; /* or any size you prefer */
+  direction: rtl;
+}
+
+h4 {
+  font-size: 1.25em; /* or any size you prefer */
+  direction: rtl;
+}
+
+h5 {
+  font-size: 1em; /* or any size you prefer */
+  direction: rtl;
+}
+
+h6 {
+  font-size: 0.875em; /* or any size you prefer */
+  direction: rtl;
+}
