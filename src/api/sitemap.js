@@ -65,9 +65,9 @@ export const getSitemMapProducts = async () => {
     }
 };
 
-export const getSitemMapBlogs = async () => {
+export const getSitemMapCarTypes = async () => {
     try {
-        const response = await axios.get("https://panel.girpazh.com/sitemap-blogs");
+        const response = await axios.get("https://panel.girpazh.com/sitemap-car-types");
         
 
         if (response.status === 200) {
@@ -82,7 +82,7 @@ export const getSitemMapBlogs = async () => {
 
 export const getSitemMapBrands = async () => {
     try {
-        const response = await axios.get("https://panel.girpazh.com/sitemap-brands");
+        const response = await axios.get("https://panel.girpazh.com/sitemap-car-brands");
         
 
         if (response.status === 200) {
